@@ -1,4 +1,3 @@
-# Build the cpp-httplib web server, then run it in a small production image.
 FROM debian:bookworm-slim AS build
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
