@@ -11,7 +11,7 @@ RUN cmake -S . -B build -DCMAKE_BUILD_TYPE=Release \
 
 FROM debian:bookworm-slim
 WORKDIR /app
-COPY --from=build /app/MatrixStudioServer /app/MatrixStudioServer
+COPY --from=build /app/build/MatrixStudioServer /app/MatrixStudioServer
 COPY index.html app.js styles.css /app/
 
 EXPOSE 8080
