@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: matrix-studio-cpp
+    runtime: docker
+    healthCheckPath: /api/health
