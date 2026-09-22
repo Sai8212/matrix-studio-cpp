@@ -1,0 +1,23 @@
+# CMake build output
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+Testing/
+
+# Windows / Visual Studio build output
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+*.ilk
+*.exp
+.vs/
+
+# Editor and operating-system files
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
